@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>It's Me Vinayak</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9a3bfedfde.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/V.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#services">services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i class="fa-solid fa-xmark fas" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars fas" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Vinayak</span><br>from Karnataka</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="abt-col-1">
+                    <img src="images/Untitled design (2).png" class="">
+                </div>
+                <div class="abt-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm a positive minded person with growth mindset . Over the years I have acquired perticular set of skills
+                        that allow me to develope reliable scalable softwares and designs. If you are working on something in which I can help, reach out: i like 
+                        to impact bottom line, play nice and help others along the way.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Java</span><br>DSA, OOPS, Swing, JSP</li>
+                            <li><span>Backend Development</span><br>Spring Boot, Hibernate, JPA, REST API's</li>
+                            <li><span>Frontend Development</span><br>HTML, CSS, Bootstrap, Javascript</li>
+                            <li><span>Database</span><br>JDBC, MySQL</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Full Stack Web Development Bootcamp Trainee</span><br>Acciojob</li>
+                            <li>-Learned web development course and work on industry level projects.</li>
+                            <li>-Wrote clear, clean code for various projects.</li>
+                            <li>-Proved successful working within tight deadlines and a fast-paced environment.</li>
+                            <li>-Learned software engineering process improvements and best practices.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>10th(2016)</span><br>MEMS Honnavar, Percentage-91</li>
+                            <li><span>12th(2018)</span><br>Sarswati PU College Kumta, percentage-89</li>
+                            <li><span>BE(2018-2022)</span><br>SDMCET Dharwad, CGPA-8.6</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                    <h2>Java Development</h2>
+                    <p>Developing applications and software using the Java programming language</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-power-off"></i>
+                    <h2>Backend Development</h2>
+                    <p>Developing the Backend of application and software using Spring Boot</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Frontend Development</h2>
+                    <p>Developing user interface of website and software using HTML, CSS, Bootstrap, JS</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/movie-ticketing.webp" >
+                    <div class="layer">
+                        <h3>Movie Ticket Booking </h3>
+                        <p>This is a Spring Boot backend application where you can book tickets, search movies, find show and has 10-12 API's.</p>
+                        <a href="https://github.com/VinayakB07/BookMyShow-Backend-Application"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/GettyImages-1047578412-692fa117cf86450287d8873eeb1a95c8-aa8d654cec814174a9e07bdae85a1eb7.jpg" >
+                    <div class="layer">
+                        <h3>Search Engine</h3>
+                        <p>A software program that helps people find the information they are looking for online using keywords or phrases. Able
+                            to return the title and its link related to input given by user.</p>
+                        <a href="https://github.com/VinayakB07/Search-Engine"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/library-management-system-250x250.webp" >
+                    <div class="layer">
+                        <h3>Library Management System</h3>
+                        <p>This is a spring application where student has a card issued, can return issue books, record transactions, find books by
+                            author and has 10 API's.</p>
+                        <a href="https://github.com/VinayakB07/Student_Library_Management_System"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>vinayakbalachandra07@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9380595125</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/vinayak-b-b7387b247/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/vinayaknaik__17/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/VinayakB07"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="images/Vinayak B (2).pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="your name" required>
+                        <input type="email" name="Email" placeholder="your email" required>
+                        <textarea name="message"  rows="6" placeholder="your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &#169; vinayak. Hope you find it useful</p>
+        </div>
+    </div>
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+
+           for(tablink of tablinks){
+              tablink.classList.remove("active-link");
+           }
+          for(tabcontent of tabcontents){
+              tabcontent.classList.remove("active-tab");
+          }
+          event.currentTarget.classList.add("active-link");
+          document.getElementById(tabname).classList.add("active-tab");
+
+}
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+ 
+      
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxt4JKndW1trK1ytP0QTEQYBjpTNLYHGRGOUB7I84MMwMG8bGda5DIUFHG9sNSOMWA0/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
